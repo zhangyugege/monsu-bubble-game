@@ -73,7 +73,7 @@ var GameOpeningLayer = cc.Layer.extend({
       
 			cc.textureCache.addImage(temp[i]);
 	
-		
+		}
 		//preload game objects
 //		pre_bird = new Bird(-100, -100);
 //		pre_frog = new Frog(-100, -100);
