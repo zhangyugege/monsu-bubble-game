@@ -1,0 +1,7 @@
+{
+    "debugMode"     : 1,//调试0默认，1canvas  还有webgl等等
+    "frameRate"     : 60,   //帧速
+    "id"            : "gameCanvas",
+    "renderMode"    : 1,
+    "jsList"        : []
+}
