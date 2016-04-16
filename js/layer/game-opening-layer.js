@@ -67,12 +67,12 @@ var GameOpeningLayer = cc.Layer.extend({
 		}
 
 		//load to mem
-        var j=0;
+       
 		for(var i in temp) {
-            j++;
-            h5api.progress(j, temp.length);
+     
+      
 			cc.textureCache.addImage(temp[i]);
-		}
+	
 		
 		//preload game objects
 //		pre_bird = new Bird(-100, -100);
