@@ -8,8 +8,8 @@ var res = {
     //opening
     begin:{
 
-        bg:"res/begin-btn/begin-bg.png",
-        biaoti:"res/begin-btn/biaoti.png",
+        bg:"res/begin-btn/begin-bg.webp",
+        biaoti:"res/begin-btn/biaoti.webp",
         enemy:"res/begin-btn/enemy.webp",
         playBtn: 'res/begin-btn/play-btn.png',
          playBtnS: 'res/begin-btn/play-btn-s.png'
@@ -256,7 +256,7 @@ var res = {
 
 
 
-        housebg:"res/house-btn/house-bg.png",
+        housebg:"res/house-btn/house-bg.webp",
         xiaoshou:"res/house-btn/xiaoshou.png",
         tybtnmenu:"res/house-btn/tybtnmenu.png",
         sleepbtn:"res/house-btn/sleep-btn.png",
@@ -266,14 +266,14 @@ var res = {
         eatbtn:"res/house-btn/eat-btn.png",
         doudoubtn:"res/house-btn/doudou-btn.png",
         collegebtn:"res/house-btn/college-btn.png",
-        thinking:"res/house-btn/thinking.png"
+        thinking:"res/house-btn/thinking.webp"
 
 
     },
     menu: {
 
-        menubg:"res/menu-selected/menu-bg.png",
-        menu_handbook:"res/menu-selected/menu_handbook.png",
+        menubg:"res/menu-selected/menu-bg.webp",
+        menu_handbook:"res/menu-selected/menu_handbook.webp",
         menu_myhouse:"res/menu-selected/menu_myhouse.png",
         menu_myhouse_selected:"res/menu-selected/menu_myhouse_selected.png",
         menuselected1:"res/menu-selected/menu-selected-1.png",
@@ -287,13 +287,13 @@ var res = {
     },
     main:{
 
-        farbg:"res/main-btn/far-bg.png",
+        farbg:"res/main-btn/far-bg.webp",
         enemy0:"res/main-btn/enemy-0.png",
         enemy01:"res/main-btn/enemy-01.png",
         enemy1:"res/main-btn/enemy-1.png",
         enemy2:"res/main-btn/enemy-2.png",
         fog:"res/main-btn/fog.png",
-        jiange:"res/main-btn/jiange.png",
+        jiange:"res/main-btn/jiange.webp",
         particle:"res/main-btn/particle.png",
         starLight:"res/main-btn/starLight.png",
         progressnei:"res/main-btn/progress-nei.png",
@@ -316,8 +316,8 @@ var res = {
         wintext:"res/over-btn/wintext.png",
         losetext:"res/over-btn/losetext.png",
         reload:"res/over-btn/reload.png",
-        scoreboard2:"res/over-btn/score-board2.png",
-        scoreboard:"res/over-btn/score-board.png",
+        scoreboard2:"res/over-btn/score-board2.webp",
+        scoreboard:"res/over-btn/score-board.webp",
         nextlevel:"res/over-btn/store.png",
         store: 'res/over-btn/store1.png'
 
@@ -336,13 +336,13 @@ var res = {
     Bubble_5:"res/main-btn/5.png",
     Bubble_6:"res/main-btn/6.png",
     Shooter:"res/main-btn/bubble_shooter.png",
-    kapai_1:"res/main-btn/kapai-1.png",
-    kapai_2:"res/main-btn/kapai-2.png",
-    kapai_3:"res/main-btn/kapai-3.png",
+    kapai_1:"res/main-btn/kapai-1.webp",
+    kapai_2:"res/main-btn/kapai-2.webp",
+    kapai_3:"res/main-btn/kapai-3.webp",
 
 
     open: {
-        bg: 'res/open-bg.png',
+        bg: 'res/open-bg.webp',
         team: 'res/maxon-team.png'
     },
 
