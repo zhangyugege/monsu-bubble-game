@@ -281,7 +281,6 @@ var PlayLayer = cc.Layer.extend({
                 {
                     soundItem.setNormalSpriteFrame(res.sound.Sound_Off);
                     soundItem.setSelectedSpriteFrame(res.sound.Sound_On);
-                    cc.log("click");
                     cc.audioEngine.stopMusic(res.sound.bgWelcome);
                     game.isSound=false;
                 }
@@ -289,7 +288,6 @@ var PlayLayer = cc.Layer.extend({
                 {
                     soundItem.setNormalSpriteFrame(res.sound.Sound_On);
                     soundItem.setSelectedSpriteFrame(res.sound.Sound_Off);
-                    cc.log("click");
                     cc.audioEngine.playMusic(res.sound.bgWelcome,true);
                     game.isSound=true;
 

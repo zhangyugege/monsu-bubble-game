@@ -205,7 +205,7 @@ var GameMenuLayer = cc.Layer.extend({
     },
     onhouse: function () {
         this.playsound();
-        cc.director.runScene(new HouseScene());
+   //     cc.director.runScene(new HouseScene());
     },
     onplay: function (gam) {
         this.playsound();
