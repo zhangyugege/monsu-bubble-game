@@ -35,4 +35,6 @@ monsu卡牌泡泡龙小游戏
 
 4 联系方式
 -------
-*http://blog.csdn.net/u014787301*
+博客：http://blog.csdn.net/u014787301 
+
+邮箱：liuchen798@163.com
