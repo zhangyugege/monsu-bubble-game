@@ -11,8 +11,8 @@ var res = {
         bg:"res/begin-btn/begin-bg.webp",
         biaoti:"res/begin-btn/biaoti.webp",
         enemy:"res/begin-btn/enemy.webp",
-        playBtn: 'res/begin-btn/play-btn.png',
-         playBtnS: 'res/begin-btn/play-btn-s.png'
+        playBtn: 'res/begin-btn/play-btn.webp',
+         playBtnS: 'res/begin-btn/play-btn-s.webp'
     },
     house:{
     //    1001:"res/house-anim/1001.jpg",
@@ -274,24 +274,24 @@ var res = {
 
         menubg:"res/menu-selected/menu-bg.webp",
         menu_handbook:"res/menu-selected/menu_handbook.webp",
-        menu_myhouse:"res/menu-selected/menu_myhouse.png",
-        menu_myhouse_selected:"res/menu-selected/menu_myhouse_selected.png",
-        menuselected1:"res/menu-selected/menu-selected-1.png",
-        menuselected2:"res/menu-selected/menu-selected-2.png",
-        menuselected3:"res/menu-selected/menu-selected-3.png",
-        menuselected4:"res/menu-selected/menu-selected-4.png",
-        pageUpLeft:"res/menu-selected/pageUpLeft.png",
-        pageUpRight:"res/menu-selected/pageUpRight.png"
+        menu_myhouse:"res/menu-selected/menu_myhouse.webp",
+        menu_myhouse_selected:"res/menu-selected/menu_myhouse_selected.webp",
+        menuselected1:"res/menu-selected/menu-selected-1.webp",
+        menuselected2:"res/menu-selected/menu-selected-2.webp",
+        menuselected3:"res/menu-selected/menu-selected-3.webp",
+        menuselected4:"res/menu-selected/menu-selected-4.webp",
+        pageUpLeft:"res/menu-selected/pageUpLeft.webp",
+        pageUpRight:"res/menu-selected/pageUpRight.webp"
 
 
     },
     main:{
 
         farbg:"res/main-btn/far-bg.webp",
-        enemy0:"res/main-btn/enemy-0.png",
-        enemy01:"res/main-btn/enemy-01.png",
-        enemy1:"res/main-btn/enemy-1.png",
-        enemy2:"res/main-btn/enemy-2.png",
+        enemy0:"res/main-btn/enemy-0.webp",
+        enemy01:"res/main-btn/enemy-01.webp",
+        enemy1:"res/main-btn/enemy-1.webp",
+        enemy2:"res/main-btn/enemy-2.webp",
         fog:"res/main-btn/fog.png",
         jiange:"res/main-btn/jiange.webp",
         particle:"res/main-btn/particle.png",
@@ -300,9 +300,9 @@ var res = {
         progresswai:"res/main-btn/progress-wai.png",
         goleft:"res/main-btn/goleft.png",
         goright:"res/main-btn/goright.png",
-        maintishilogo:"res/main-btn/main-tishi-logo.png",
-        maintishiguaiwubg:"res/main-btn/main-tishi-guaiwubg.png",
-        maintishibg:"res/main-btn/main-tishi-bg.png",
+        maintishilogo:"res/main-btn/main-tishi-logo.webp",
+        maintishiguaiwubg:"res/main-btn/main-tishi-guaiwubg.webp",
+        maintishibg:"res/main-btn/main-tishi-bg.webp",
         bomb:"res/main-btn/bomb.png"
 
 
@@ -311,10 +311,10 @@ var res = {
     over:{
 
         menu: 'res/over-btn/menu.png',
-        winligt:"res/over-btn/winlight.png",
-        loseligt:"res/over-btn/loselight.png",
-        wintext:"res/over-btn/wintext.png",
-        losetext:"res/over-btn/losetext.png",
+        winligt:"res/over-btn/winlight.webp",
+        loseligt:"res/over-btn/loselight.webp",
+        wintext:"res/over-btn/wintext.webp",
+        losetext:"res/over-btn/losetext.webp",
         reload:"res/over-btn/reload.png",
         scoreboard2:"res/over-btn/score-board2.webp",
         scoreboard:"res/over-btn/score-board.webp",
@@ -323,7 +323,7 @@ var res = {
 
     },
     pause:{
-        pauseboard:"res/pause/pauseboard.png",
+        pauseboard:"res/pause/pauseboard.webp",
         playbtn:"res/pause/play-btn.png"
     },
 
