@@ -67,11 +67,14 @@ var GameOpeningLayer = cc.Layer.extend({
 		}
 
 		//load to mem
-       console.log(temp);
 		for(var i in temp) {
-
-			cc.textureCache.addImage(temp[i]);
-	
+            preLoadImg(temp[i]);
+            cc.textureCache.addImage(temp[i]);
 		}
-	}
+
+        function preLoadImg(url) {
+            var img = new Image();
+            img.src = url;
+        }
+    }
 });
