@@ -51,7 +51,7 @@ var GameOpeningLayer = cc.Layer.extend({
 						continue;
 					} else {
 						if(typeof res[i][j] == "string"){
-							if(!res[i][j].endWith("plist") && !res[i][j].endWith("mp3")) {
+							if(!res[i][j].endWith("ogg") && !res[i][j].endWith("mp3")) {
 								temp.push(res[i][j]);
 							}
 						}
@@ -59,7 +59,7 @@ var GameOpeningLayer = cc.Layer.extend({
 				}
 			} else {
 				if(typeof res[i][j] == "string"){
-					if(!res[i][j].endWith("plist") && !res[i][j].endWith("mp3")) {
+					if(!res[i][j].endWith("ogg") && !res[i][j].endWith("mp3")) {
 						temp.push(res[i]);
 					}
 				}
@@ -67,19 +67,11 @@ var GameOpeningLayer = cc.Layer.extend({
 		}
 
 		//load to mem
-       
+       console.log(temp);
 		for(var i in temp) {
-     
-      
+
 			cc.textureCache.addImage(temp[i]);
 	
 		}
-		//preload game objects
-//		pre_bird = new Bird(-100, -100);
-//		pre_frog = new Frog(-100, -100);
-//		pre_magnet = new Magnet(-100, -100, 0.5);
-//		pre_redshoes = new Redshoes(-100, -100);
-//		pre_shoes = new Shoes(-100, -100);
-//		pre_spring = new Spring(-100, -100, 0.7);	
 	}
 });
