@@ -258,7 +258,7 @@ var res = {
     //
     //    housebg:"res/house-btn/house-bg.webp",
     //    xiaoshou:"res/house-btn/xiaoshou.png",
-    //    tybtnmenu:"res/house-btn/tybtnmenu.png",
+        tybtnmenu:"res/house-btn/tybtnmenu.png",
     //    sleepbtn:"res/house-btn/sleep-btn.png",
     //    playbtn:"res/house-btn/play-btn.png",
     //    gotoschoolbtn:"res/house-btn/gotoschool-btn.png",
