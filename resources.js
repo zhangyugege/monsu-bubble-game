@@ -10,7 +10,7 @@ var res = {
 
         bg:"res/begin-btn/begin-bg.png",
         biaoti:"res/begin-btn/biaoti.png",
-        enemy:"res/begin-btn/enemy.png",
+        enemy:"res/begin-btn/enemy.webp",
         playBtn: 'res/begin-btn/play-btn.png',
          playBtnS: 'res/begin-btn/play-btn-s.png'
     },

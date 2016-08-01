@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game-opening-layer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game-opening-layer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/layer/game-opening-layer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4719472" vertical-offset="1074" max-vertical-offset="1720">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1720">
               <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -108,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resources.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="260">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="234.8" vertical-offset="7304" max-vertical-offset="7880">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.5833333" vertical-offset="7304" max-vertical-offset="7880">
+              <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,13 +138,13 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/resources.js" />
         <option value="$PROJECT_DIR$/js/layer/game-house-layer.js" />
         <option value="$PROJECT_DIR$/js/layer/game-main-layer.js" />
         <option value="$PROJECT_DIR$/js/layer/rank-layer.js" />
         <option value="$PROJECT_DIR$/js/layer/game-over-layer.js" />
         <option value="$PROJECT_DIR$/js/layer/game-menu-layer.js" />
         <option value="$PROJECT_DIR$/js/layer/game-opening-layer.js" />
+        <option value="$PROJECT_DIR$/resources.js" />
       </list>
     </option>
   </component>
@@ -365,14 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scene/game-house-scene.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
@@ -453,14 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="234.8" vertical-offset="7304" max-vertical-offset="7880">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/layer/game-main-layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30140">
@@ -505,11 +499,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/layer/game-opening-layer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4719472" vertical-offset="1074" max-vertical-offset="1720">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1720">
           <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="260">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5833333" vertical-offset="7304" max-vertical-offset="7880">
+          <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
