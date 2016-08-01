@@ -465,7 +465,6 @@ var PlayLayer = cc.Layer.extend({
             this.addonekapai(i);
         }
 
-        console.log("add kapai");
 
 
     },
@@ -484,7 +483,6 @@ var PlayLayer = cc.Layer.extend({
         this.addChild(kapai,100+i);
         var actionTo = cc.MoveTo.create(1, cc.p(size.width/2-255-i*25, size.height/2+130-i*35)).easing(cc.easeElasticOut());
         kapai.runAction(actionTo);
-        console.log(i);
         this.rolekapaiArr[i-1]=kapai;
 
 
@@ -507,7 +505,6 @@ var PlayLayer = cc.Layer.extend({
 
         this.reduceprogress(-2);
 
-        console.log("add blood");
     },
     //怪物技能：遮罩
     addenemyparticle2: function () {
@@ -535,7 +532,6 @@ var PlayLayer = cc.Layer.extend({
 
         this.think.setString("它把泡泡遮住啦");
 
-        console.log("zhezhao");
     },
     //怪物技能：攻击shooter
     addenemyparticle3: function () {
@@ -662,7 +658,6 @@ var PlayLayer = cc.Layer.extend({
         //alert(this.fireBubble.type);
         this.fireColddown=false;
 
-        console.log("create the ready pos");
 
 
 
@@ -749,7 +744,6 @@ var PlayLayer = cc.Layer.extend({
             var addflag=false;
 
 
-            console.log("this added"+k+1+"bubbles"+" "+ addflag);
             for(var i=0;i<game.MaxRow;i++)
             {
                 for(var j=0;j<game.MaxCol;j++)
@@ -765,7 +759,6 @@ var PlayLayer = cc.Layer.extend({
                                     //加上一个泡泡
 
                                     var type=parseInt(Math.random()*5);
-                                    console.log(pos[0]+pos[1]+"is none can add");
                                     var offset=(pos[0])%2?game.BubbleD/2:0;
                                     var x=game.Bound.LEFT+game.BubbleD*pos[1]+offset;
                                     var y=game.Bound.UP-game.BubbleD*(pos[0]);
@@ -794,7 +787,6 @@ var PlayLayer = cc.Layer.extend({
                                 }
 
 
-                                console.log(i,j,kk);
                             }
                         }
                     }
@@ -950,12 +942,9 @@ var PlayLayer = cc.Layer.extend({
 
 
                     var bSame=(roundBub && !roundBub.isMark) ? bubble.type == roundBub.type: false;
-                    console.log(bubble.type);
-                    console.log("firebubble is ");
                     if(roundBub&&bubble.type==6)
                     {
                         bSame=true;
-                        console.log("firebubble is 6");
                     }
                     if(bSame){
                         roundBub.isMark=true;
@@ -1176,7 +1165,6 @@ var PlayLayer = cc.Layer.extend({
                 if(!runkapaiflag&&k){
                     kapai.choose=true;
                     this.playsound();
-                    console.log(kapai.num+"is click");
                     var size=cc.director.getWinSize();
                     var actionTo = cc.MoveTo.create(1, cc.p(size.width/2, size.height/2)).easing(cc.easeElasticOut());
                     kapai.runAction(actionTo);
@@ -1187,7 +1175,6 @@ var PlayLayer = cc.Layer.extend({
                     kapai.setPosition(kapai.point);
                     kapai.choose=false;
                 }
-                console.log(kapai.num+"kapai choose is"+kapai.choose);
 
             }
 
@@ -1196,7 +1183,6 @@ var PlayLayer = cc.Layer.extend({
         }
 
         var size=cc.director.getWinSize();
-        console.log("runkapaiflag is"+runkapaiflag);
         var that=this;
         var k=pos.x<=size.width/2+game.kapaiX/2&&pos.x>=size.width/2-game.kapaiX/2&&pos.y<=size.height/2+game.kapaiY/2&&pos.y>=size.height/2-game.kapaiY/2;
         if(k){
@@ -1205,10 +1191,8 @@ var PlayLayer = cc.Layer.extend({
                 var kapai = this.rolekapaiArr[i];
                 if(kapai&&kapai.choose==true)
                 {
-                    console.log(kapai.num+"will display");
                     kapai.runAction(cc.Sequence.create(cc.MoveTo.create(0.5, cc.p(size.width/2, size.height+190)).easing(cc.easeElasticInOut(0.45)),
                         new cc.CallFunc(function(kapai){
-                            console.log(kapai.num+"is displayed");
                             that.rolekapaiArr[kapai.num]=0;
                             that.runkapaiEffect(kapai.tag);
                             kapai.removeFromParent();
@@ -1245,11 +1229,9 @@ var PlayLayer = cc.Layer.extend({
     runkapaiEffect:function(type){
 
         var that=this;
-        console.log(type +"will be effect");
         if(type==3)//变彩色球
         {
 
-            console.log("firebubble is remove from parent");
             var q=this.fireBubble;
             q.removeFromParent(true);
             this.fireBubble=null;
@@ -1305,7 +1287,6 @@ var PlayLayer = cc.Layer.extend({
                 that.bubblesArr[i][j]=0;
                 if(b)
                 {
-                    console.log(b.myRow+ " "+ b.myCol+"is remove from parent");
                     b.removeFromParent();
                 }
                 var x=game.Bound.LEFT+game.BubbleD*j+offset;
@@ -1323,7 +1304,6 @@ var PlayLayer = cc.Layer.extend({
     },
     addbombparticle: function (i,j) {
 
-        console.log("bomb particle");
         var  size=cc.director.getWinSize();
         var kapai=new cc.Sprite(res.main.starLight);
         kapai.setScale(0.6);
@@ -1334,7 +1314,6 @@ var PlayLayer = cc.Layer.extend({
         })));
 
         this.think.setString("炸掉坏蛋");
-        console.log("add blood");
     },
     notemptyline:function(){
 
@@ -1469,8 +1448,6 @@ var PlayLayer = cc.Layer.extend({
 
         }
 
-        console.log("add bubbles");
-
     },
 
     createShooter:function(){
@@ -1481,7 +1458,6 @@ var PlayLayer = cc.Layer.extend({
         this.addChild(this.shooter,0);
 
 
-        console.log("add shooter");
     },
     createShootBubble:function(){
         var random=parseInt(Math.random()*this.availbleBubTypes.length);
@@ -1493,7 +1469,7 @@ var PlayLayer = cc.Layer.extend({
         this.fireBubble=this.addOneBubble(type,game.Shoot_Pos.x,game.Shoot_Pos.y);
 
 
-        console.log("add shootbubbles");
+
     },
     createReadyBubble:function(){
         var random=parseInt(Math.random()*this.availbleBubTypes.length);
@@ -1503,7 +1479,6 @@ var PlayLayer = cc.Layer.extend({
         }
         var type=this.availbleBubTypes[random];
         this.waitBubble=this.addOneBubble(type,game.Ready_Pos.x,game.Ready_Pos.y);
-        console.log("add ready bubble");
     },
 
     addOneBubble:function(type,x,y){

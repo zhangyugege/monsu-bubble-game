@@ -71,7 +71,6 @@ var RankLayer = cc.Layer.extend({
                     this.kapai.removeFromParent(true);
                     cc.audioEngine.playEffect(res.sound.ground, false);
                     this.kapai=new cc.Sprite(res["kapai_"+this.pos]);
-                    console.log(this.pos);
                     this.kapai.setPosition(cc.p(winsize.width/2,winsize.height/2));
                     this.addChild(this.kapai,100);
                     this.note.string=labelArr[this.pos-1];
@@ -95,7 +94,6 @@ var RankLayer = cc.Layer.extend({
                 cc.audioEngine.playEffect(res.sound.ground, false);
                 this.kapai.removeFromParent(true);
                 this.kapai=new cc.Sprite(res["kapai_"+this.pos]);
-                console.log(this.pos);
                 this.kapai.setPosition(cc.p(winsize.width/2,winsize.height/2));
                 this.addChild(this.kapai,100);
                 this.note.string=labelArr[this.pos-1];

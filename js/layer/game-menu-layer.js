@@ -41,8 +41,6 @@ var GameMenuLayer = cc.Layer.extend({
         spritebg.setScale(0.8);
         this.addChild(spritebg,0);
 
-        console.log("is ok1");
-
         ///////////////////////////////////////////按钮/////////////////////////////////////////////////////////
 
 
@@ -55,9 +53,6 @@ var GameMenuLayer = cc.Layer.extend({
         menuBtn.setPosition(cc.p(winsize.width/2-80,4));
         menuBtn.setScale(0.8);
         this.addChild(menuBtn, 1);
-
-
-
 
 
 
@@ -124,13 +119,7 @@ var GameMenuLayer = cc.Layer.extend({
 
 ///////////////////////////////////////////////////level/////////////////////////////////////////////////
 
-
-
         var that=this;
-
-
-
-
 
         this.lev1= new cc.MenuItemImage(
             res.menu.menuselected1,
@@ -208,18 +197,6 @@ var GameMenuLayer = cc.Layer.extend({
     },
 
     update:function(dt){
-
-
-        //if(game.nowscore <game.score+this.prescore){
-        //    game.nowscore+=100;
-        //}
-        //
-        //if(this.card <game.card) {
-        //    this.card++;
-        //}
-        //
-        //this.labelScore.setString(game.nowscore);
-        //this.labelCard.setString(this.card);
 
     },
     playsound: function () {

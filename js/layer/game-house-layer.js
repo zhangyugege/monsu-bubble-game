@@ -480,7 +480,6 @@ var GameHouseLayer = cc.Layer.extend({
         cc.audioEngine.playEffect(res.sound.ground, false);
     },
     onrun: function (ans) {
-        console.log(ans);
         this.playsound();
         switch(ans)
         {
@@ -624,11 +623,9 @@ var GameHouseLayer = cc.Layer.extend({
 
         if(pos.x>=this.xiaoshoupos_x-this.xiaoshou_bound/2&&pos.x<=this.xiaoshoupos_x+this.xiaoshou_bound/2&&pos.y>=this.xiaoshoupos_y-this.xiaoshou_bound/2&&pos.y<=this.xiaoshoupos_y+this.xiaoshou_bound/2)
         {
-            console.log("click");
             if(this.isxiaoshou==false)
             {
                 this.playsound();
-                console.log("move");
                 this.isxiaoshou=true;
                 this.xiaoshou.x=pos.x;
                 this.xiaoshou.y=pos.y;

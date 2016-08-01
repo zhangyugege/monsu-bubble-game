@@ -271,21 +271,6 @@ var res = {
 
     },
     menu: {
-        //bg: 'res/menu-bg.png',
-        //
-        //storeBtn: 'res/rank-btn.png',
-        //storeBtnS: 'res/rank-btn.png',
-        //setBtn: 'res/set-btn.png',
-        //setBtnS: 'res/set-btn-s.png',
-        //startBtn: 'res/start-btn-normal.png',
-        //startBtnS: 'res/start-btn-selected.png',
-        //aboutBtn: 'res/about-btn.png',
-        //aboutBtnS: 'res/about-btn-s.png',
-        //logo: 'res/game-logo.png',
-        //wait: 'res/wait.png',
-
-
-
 
         menubg:"res/menu-selected/menu-bg.png",
         menu_handbook:"res/menu-selected/menu_handbook.png",
@@ -297,7 +282,6 @@ var res = {
         menuselected4:"res/menu-selected/menu-selected-4.png",
         pageUpLeft:"res/menu-selected/pageUpLeft.png",
         pageUpRight:"res/menu-selected/pageUpRight.png"
-
 
 
     },
@@ -322,11 +306,9 @@ var res = {
         bomb:"res/main-btn/bomb.png"
 
 
-
     },
 
     over:{
-
 
         menu: 'res/over-btn/menu.png',
         winligt:"res/over-btn/winlight.png",
@@ -363,24 +345,6 @@ var res = {
         bg: 'res/open-bg.png',
         team: 'res/maxon-team.png'
     },
-    /////////////////////
-    //mode: {
-    //    board: 'res/mode-board.png',
-    //    mode1: 'res/mode1.png',
-    //    mode2: 'res/mode2.png'
-    //},
-    //
-    //info: {
-    //    board: 'res/info-board.png',
-    //},
-    //
-    //rank: {
-    //    board: 'res/rank-board.png'
-    //},
-
-
-
-
 
 
 
@@ -394,7 +358,6 @@ var res = {
 
         Sound_On:"res/sound/sound-on.png",
         Sound_Off:"res/sound/sound-off.png",
-
 
 
         //发射音效
@@ -412,32 +375,7 @@ var res = {
         lose:"res/sound/lose.ogg",
         hurt:"res/sound/hurt.ogg"
 
-
-
     }
-
-    //ui: {
-    //    goldbar: 'res/ui/gold-bar.png',
-    //    energybar: 'res/ui/energy-bar.png',
-    //    progress: 'res/ui/progress.png',
-    //    soundOn: 'res/ui/soundOnBtn.png',
-    //    soundOff: 'res/ui/soundOffBtn.png',
-    //    distance: 'res/ui/distance.png',
-    //    aboutBoard: 'res/ui/about-board.png',
-    //    backBtn: 'res/ui/back-btn.png',
-    //    setBoard: 'res/ui/set-board.png',
-    //    onBtn: 'res/ui/on-btn.png',
-    //    offBtn: 'res/ui/off-btn.png',
-    //    highBtn: 'res/ui/high-btn.png',
-    //    lowBtn: 'res/ui/low-btn.png',
-    //    storeBoard: 'res/ui/store-board.png',
-    //    buy30: 'res/ui/buy-30.png',
-    //    buy50: 'res/ui/buy-50.png',
-    //    magnetProp: 'res/ui/magnet-prop.png',
-    //    shoesProp: 'res/ui/shoes-prop.png',
-    //    redshoesProp: 'res/ui/redshoes-prop.png'
-    //},
-
 
 
 };
