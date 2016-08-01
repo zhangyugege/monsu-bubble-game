@@ -7,9 +7,7 @@
 var GameMenuLayer = cc.Layer.extend({
 
     back:null,
-
     //  翻页效果
-
     lev1:null,
     lev2:null,
     lev3:null,
@@ -187,12 +185,7 @@ var GameMenuLayer = cc.Layer.extend({
             this.lev3,
             this.lev4
         ];
-
-
-
        // this.scheduleUpdate();
-
-
 
     },
 
@@ -212,7 +205,7 @@ var GameMenuLayer = cc.Layer.extend({
     },
     onhouse: function () {
         this.playsound();
-        //cc.director.runScene(new HouseScene());
+        cc.director.runScene(new HouseScene());
     },
     onplay: function (gam) {
         this.playsound();
